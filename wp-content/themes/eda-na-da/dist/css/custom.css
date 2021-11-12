@@ -1,0 +1,47 @@
+.product .semena {
+  position: absolute;
+  left: 0;
+  top: 183px;
+}
+
+.product .red-apple {
+  position: absolute;
+  right: 0;
+  top: 1080px;
+}
+
+.product .kreker-kapusta {
+  position: absolute;
+  left: 0;
+  top: 1914px;
+}
+
+.product .semena-down {
+  position: absolute;
+  right: 0;
+  top: 2610px;
+}
+
+@media (max-width: 1656px) {
+  .product .semena {
+    display: none;
+  }
+}
+
+@media (max-width: 1712px) {
+  .product .red-apple {
+    display: none;
+  }
+}
+
+@media (max-width: 1744px) {
+  .product .kreker-kapusta {
+    display: none;
+  }
+}
+
+@media (max-width: 1711px) {
+  .product .semena-down {
+    display: none;
+  }
+}
