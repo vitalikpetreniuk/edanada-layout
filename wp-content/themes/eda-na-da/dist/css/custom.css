@@ -22,6 +22,39 @@
   top: 2610px;
 }
 
+.products .med {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.products .kapusta {
+  position: absolute;
+  left: 0;
+  top: 1087px;
+  z-index: -1;
+}
+
+.products .solb {
+  position: absolute;
+  right: 0;
+  top: -119px;
+  z-index: -1;
+}
+
+.products .red-apple-2 {
+  position: absolute;
+  right: 0;
+  top: 1090px;
+  z-index: -1;
+}
+
+@media (max-width: 1496px) {
+  .products .med {
+    display: none;
+  }
+}
+
 @media (max-width: 1656px) {
   .product .semena {
     display: none;
@@ -43,5 +76,22 @@
 @media (max-width: 1711px) {
   .product .semena-down {
     display: none;
+  }
+}
+
+
+.about-prod-grid .item {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-grid .block-img {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .products-grid .block-img {
+    margin-bottom: 40px;
   }
 }
