@@ -1321,7 +1321,7 @@ body {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     width: 1717px;
-    height: 4060px; }
+    height: 6060px; }
     @media (max-width: 1199px) {
       .front #stroke {
         display: none; } }
@@ -1366,7 +1366,8 @@ body {
   .bran-img {
     position: relative; }
     .bran-img img {
-      max-width: none; }
+      max-width: none;
+      max-height: 682px; }
       @media (max-width: 1199px) {
         .bran-img img {
           max-width: 100%; } }

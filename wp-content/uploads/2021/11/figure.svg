@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1179.125" height="2119.22" viewBox="0 0 1179.125 2119.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #5c6274;
+        stroke-width: 8.28px;
+        stroke-dasharray: 33.12 16.56;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="446.375" y="4222.06" width="1170.845" height="2110.94" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#dfdfdf"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-442.235 -4217.92)" style="fill: none; filter: url(#filter)">
+    <path id="Фигура_2" data-name="Фигура 2" class="cls-1" d="M503,4224s-53.752,224.41,236,350,581.39-25.72,781,174,140.39,416.32-636,400-369.612,482.38,196,528,516.64,466.72-193,657" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-442.235 -4217.92)" xlink:href="#Фигура_2" style="stroke: #5c6274; filter: none; fill: none"/>
+</svg>
