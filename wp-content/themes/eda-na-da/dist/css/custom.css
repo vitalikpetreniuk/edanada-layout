@@ -49,6 +49,135 @@
   z-index: -1;
 }
 
+@media (max-width: 767px) {
+  .shrot .seeds-2 {
+    display: none;
+  }
+}
+
+.line-continue {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.krekers-title {
+  display: inline-block;
+  margin-left: 111px;
+  position: relative;
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .krekers-title {
+    margin-top: -80px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .krekers-title {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .krekers-title {
+    margin-left: 0;
+    display: block;
+  }
+}
+
+.krekers {
+  position: relative;
+}
+
+.krekers .kreker-tiels {
+  left: 0;
+  bottom: -666px;
+}
+
+@media (max-width: 991px) {
+  .krekers .kreker-tiels {
+    display: none;
+  }
+}
+
+.krekers .part-med {
+  position: absolute;
+  right: -35px;
+  top: 453px;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .krekers .part-med {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .krekers .krekers-main {
+    display: none;
+  }
+}
+
+.krekers .krekers-mobile {
+  margin-left: -30px;
+}
+
+@media (min-width: 992px) {
+  .krekers .krekers-mobile {
+    display: none;
+  }
+}
+
+.krekers .kapusta-mini {
+  position: absolute;
+  right: 0;
+  top: 753px;
+  z-index: 2;
+}
+
+@media (max-width: 1460px) {
+  .krekers .kapusta-mini {
+    display: none;
+  }
+}
+
+.krekers-title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 325px;
+  height: 308px;
+  right: 100%;
+  margin-right: 17px;
+  top: 74px;
+  background: url(../img/arrow-cookie.png) no-repeat 50% 50%/cover;
+}
+
+@media (max-width: 1250px) {
+  .krekers-title::before {
+    display: none;
+  }
+}
+
+.krekers .brand-krekers {
+  position: absolute;
+  z-index: -1;
+  left: 54%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: -93px;
+  margin-left: -252px;
+}
+
+@media (max-width: 991px) {
+  .krekers .brand-krekers {
+    display: none;
+  }
+}
+
 @media (max-width: 1496px) {
   .products .med {
     display: none;
@@ -93,5 +222,62 @@
 @media (max-width: 991px) {
   .products-grid .block-img {
     margin-bottom: 40px;
+  }
+}
+
+  @media (min-width: 992px) {
+    .new-position {
+      margin-top: 120px;
+    }
+  }
+
+.new-position .semena-len {
+  position: absolute;
+  top: -106px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (max-width: 1684px) {
+  .new-position .semena-len {
+    display: none;
+  }
+}
+
+.new-position-title {
+  margin-top: 130px;
+}
+
+@media (max-width: 991px) {
+  .new-position-title {
+    margin-top: 10px;
+  }
+}
+
+.new-position-title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 464px;
+  height: 308px;
+  left: 55%;
+  margin-right: 17px;
+  top: -336px;
+  background: url(../img/arrow-maslo.png) no-repeat 50% 50%/cover;
+}
+
+@media (max-width: 991px) {
+  .new-position-title::before {
+    display: none;
+  }
+}
+
+.new-position .lemon {
+  right: -80px;
+}
+
+@media (max-width: 991px) {
+  .new-position .lemon {
+    display: none;
   }
 }
