@@ -281,3 +281,24 @@
     display: none;
   }
 }
+
+.about-prod-grid img {
+  max-width: 222px;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.new-position-title {
+  display: inline-block;
+  position: relative;
+  margin-right: 67px;
+}
+
+@media (max-width: 767px) {
+  .new-position-title {
+    margin-right: 0;
+    display: block;
+  }
+}

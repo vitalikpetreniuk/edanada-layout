@@ -11750,7 +11750,7 @@
                         triggerElement: a(n)[0]
                     }).setTween(s).triggerHook(.7).addTo(i)
                 });
-                var r = t(".bran-title, .oil-title, .seeds-title");
+                var r = t(".bran-title, .oil-title, .seeds-title, .shrot-title, .krekers-title");
 
                 function a(e) {
                     if (e.data("triggerelement")) {
